@@ -109,8 +109,8 @@ function customMainMenu() {
       forkOnGitHub.$xPosition0 = mods.$xPosition0;
       forkOnGitHub.$displayString.$characters.data = enc.encode("Github");
 
-      currentScreen.$openGLWarning1.$characters.data = enc.encode("");
-      currentScreen.$splashText.$characters.data = enc.encode("Meow")
+      currentScreen.$openGLWarning1.$characters.data = enc.encode("Meow");
+      currentScreen.$splashText.$characters.data = enc.encode("")
     }
     }
     }
