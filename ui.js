@@ -107,10 +107,10 @@ function customMainMenu() {
       forkOnGitHub.$width13 = buttonWidth / 2;
       forkOnGitHub.$yPosition = mods.$yPosition - buttonDistanceRel;
       forkOnGitHub.$xPosition0 = mods.$xPosition0;
-      forkOnGitHub.$displayString.$characters.data = enc.encode("Fork");
+      forkOnGitHub.$displayString.$characters.data = enc.encode("Github");
 
       currentScreen.$openGLWarning1.$characters.data = enc.encode("");
-      //currentScreen.$splashText.$characters.data = enc.encode("Justin is the sped version of Daniel")
+      currentScreen.$splashText.$characters.data = enc.encode("Meow")
     }
     }
     }
